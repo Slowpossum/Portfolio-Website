@@ -101,6 +101,20 @@ button {
     color: white;
 }
 
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 38px 0px 4px 0px;
+    overflow: auto;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    font-size: 12px;
+    text-align: center;
+    color: #cccccc;
+}
+
 #topBar {
     height: 90px;
     margin: 0 auto;
@@ -114,7 +128,7 @@ button {
 }
 
 #contentWrapper {
-    margin: 20px auto 84px auto;
+    margin: 40px auto 84px auto;
     padding: 20px;
     min-height: 500px;
     width: 916px;
@@ -125,20 +139,6 @@ button {
 #contentWrapper img {
     height: 250px;
     width: auto;
-}
-
-#footer {
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 38px 0px 4px 0px;
-    overflow: auto;
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
-    font-size: 12px;
-    text-align: center;
-    color: #cccccc;
 }
 
 #slowpossumsDen {
